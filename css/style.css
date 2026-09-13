@@ -31,8 +31,8 @@ button { cursor: pointer; }
 .brand { display: flex; align-items: center; gap: 10px; font-family: Georgia, 'Times New Roman', serif; font-size: 1.35rem; font-weight: 700; }
 .brand-mark { width: 34px; height: 34px; border: 1px solid currentColor; border-radius: 50%; display: grid; place-items: center; font-style: italic; }
 .nav-links { display: flex; gap: 10px; align-items: center; }
-.nav-links a { font-size: .9rem; padding: 9px 13px; border-radius: 999px; color: rgba(255,255,255,.92); }
-.nav-links a:not(.nav-cta):hover { background: rgba(255,255,255,.10); color: var(--white); }
+.nav-links a { font-size: .9rem; padding: 9px 13px; border-radius: 999px; color: rgba(255,255,255,.92); transition: transform 0.2s ease, background 0.2s ease;}
+.nav-links a:not(.nav-cta):hover { background: rgba(255,255,255,.10); color: var(--white);transform: translateY(-1px); }
 .nav-links a:not(.nav-cta).active { background: rgba(255,255,255,.08); color: #f4e7cf; }
 .nav-cta { border: 1px solid rgba(255,255,255,.58); padding: 9px 17px !important; border-radius: 999px; }
 .menu-button { display: none; background: none; border: 0; padding: 6px; }
