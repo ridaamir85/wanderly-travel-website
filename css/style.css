@@ -159,7 +159,20 @@ h2 { font-size: clamp(2.1rem, 4vw, 3.7rem); margin-bottom: 18px; }
 .slider { position: relative; max-width: 900px; margin: 0 auto 50px; background: var(--forest-dark); }
 .slider img { height: 510px; object-fit: cover; }
 .slider-caption { color: white; padding: 16px 20px; }
-.slider-button { position: absolute; top: 45%; transform: translateY(-50%); width: 46px; height: 46px; border: 0; border-radius: 50%; background: rgba(255,255,255,.9); color: var(--forest-dark); font-size: 1.4rem; }
+.slider-button {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255,255,255,.92);
+  color: var(--forest-dark);
+  font-size: .95rem;
+  font-weight: 700;
+  padding: 10px 16px;
+  min-width: 118px;
+  white-space: nowrap;
+}
 .slider-button.prev { left: 16px; }
 .slider-button.next { right: 16px; }
 .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
