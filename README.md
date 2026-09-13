@@ -34,7 +34,7 @@ On smaller screens, the navigation changes into a hamburger menu. JavaScript lis
 
 ### 2. Destination Details Modal
 
-The Destinations page uses **data attributes** to store destination information. When a user selects **View details**, JavaScript reads that information and displays it inside a modal window using DOM manipulation.
+The Destinations page uses **data attributes** to store destination information. When a user selects **View trip details**, JavaScript reads that information and displays it inside a modal window using DOM manipulation.
 
 ### 3. Image Slider
 
